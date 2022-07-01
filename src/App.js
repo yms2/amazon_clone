@@ -1,11 +1,14 @@
 import './App.css';
 import Header from './Header';
+import Nav from './Nav'
+import Body from './Body'
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <h1></h1>
+      <Nav/>
+      <Body/>
     </div>
   )
 }
